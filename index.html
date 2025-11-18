@@ -1,0 +1,131 @@
+
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>peace of mind — Forside</title>
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+<a class="skip-link" href="#indhold">Spring til indhold</a>
+
+<header class="site-header">
+  <a href="index.html" class="site-logo">
+    <img src="img/Screenshot%202025-11-10%20at%2012.37.01.png"
+         alt="Peace of Mind logo"
+         width="140">
+  </a>
+
+  <button id="nav-toggle" class="nav-toggle"
+          aria-controls="primær-nav"
+          aria-expanded="false"
+          aria-label="Åbn menu">
+    <svg width="28" height="28" viewBox="0 0 24 24"
+         aria-hidden="true" focusable="false">
+      <path d="M3 6h18M3 12h18M3 18h18"
+            stroke="currentColor" stroke-width="2"
+            stroke-linecap="round"/>
+    </svg>
+  </button>
+
+  <nav id="primær-nav" class="site-nav" aria-label="Hovedmenu" data-state="closed">
+    <ul>
+      <li><a href="index.html">Forside</a></li>
+      <li><a href="raad.html">Råd til ro i tankerne</a></li>
+      <li><a href="komud.html">Kom ud med tankerne</a></li>
+      <li><a href="#kontakt-h">Kontakt</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+<main id="indhold">
+
+  <section class="hero">
+    <h2 class="visually-hidden">Forside introduktion</h2>
+
+    <article class="hero-text">
+      <h2 class="visually-hidden">Forsidens hovedtekst</h2>
+
+      <p id="forside-overskrift"
+         class="hero-heading"
+         role="heading"
+         aria-level="1">
+        Få ro i tankerne her
+      </p>
+
+      <p class="lead">
+        Peace of mind er et sted til ro, refleksion og nærvær. Her kan du finde
+        inspiration til at skabe balance – og komme ud med tankerne.
+      </p>
+
+      <p class="cta-row">
+        <a class="button" href="raad.html">Råd til ro i tankerne</a>
+        <a class="button" href="komud.html">Kom ud med tankerne</a>
+      </p>
+    </article>
+
+    <figure class="hero-media">
+      <img src="img/IMG_3842.JPG" alt="Billede af kvinde, der kigger ud over havet.">
+      <figcaption class="visually-hidden">Forsidebillede</figcaption>
+    </figure>
+  </section>
+
+
+   <section id="kontakt-h" class="contact-section">
+    <h2 class="visually-hidden">Kontaktformular</h2>
+
+    <h3>Kontakt</h3>
+    <p>Du kan kontakte os via denne formular.</p>
+
+    <form class="contact" action="#" method="post" novalidate>
+      <fieldset>
+
+        <label for="navn">Navn</label>
+        <input id="navn" name="navn" autocomplete="name" required>
+
+        <label for="tlf">Telefonnummer</label>
+        <input id="tlf" name="telefon" inputmode="tel" autocomplete="tel">
+
+        <label for="mail">Email</label>
+        <input id="mail" name="email" type="email" autocomplete="email" required>
+
+        <label for="besked">Din besked</label>
+        <textarea id="besked" name="besked" rows="5"></textarea>
+
+        <button type="submit">Send besked</button>
+
+      </fieldset>
+    </form>
+
+  </section>
+
+
+
+  <address class="org">
+    <p><strong>peace of mind</strong></p>
+    <p>Telefon: +45 28 47 30 95</p>
+    <p>Email:
+      <a href="mailto:peaceofmind@peaceofmind.com">
+        peaceofmind@peaceofmind.com
+      </a>
+    </p>
+    <p>Adresse: Rolighedsvej 12, 2100 København Ø</p>
+  </address>
+
+</main>
+
+
+<footer class="site-footer">
+  <hr aria-hidden="true">
+  <small>© 2025 peace of mind</small>
+</footer>
+
+<script src="js/main.js" defer></script>
+
+</body>
+</html>
